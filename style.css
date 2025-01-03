@@ -1,10 +1,21 @@
+:root {
+  --black: #45474b;
+  --gray: #495e57;
+  --yellow: #f4ce14;
+  --white: #f5f7f8;
+}
+.menu_btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+.menu a {
+  color: var(--black);
+}
+
 ul,
 li,
 a:link {
   text-decoration: none;
   list-style-type: none;
-}
-
-.menu a {
-  color: aquamarine;
 }
