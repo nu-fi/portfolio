@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
   },
   // IMPORTANT: If your GitHub repository is named "portfolio" instead of "[username].github.io", 
   // you MUST uncomment and update the basePath below to match your repo name:
-  // basePath: "/portfolio",
+  basePath: "/portfolio",
 };
 
 export default nextConfig;
